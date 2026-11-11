@@ -259,7 +259,7 @@ General workflow tools, not code-specific.
 
 ---
 
-## What's new in this fork — Raza7x Advanced
+## What's new in this fork: Raza7x Advanced
 
 This fork keeps all 39 upstream skills unchanged and adds 5 new security skills, a skill validator, and a machine-readable index — 44 skills in total.
 
