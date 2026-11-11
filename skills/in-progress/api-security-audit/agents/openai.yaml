@@ -1,0 +1,5 @@
+interface:
+  display_name: "API Security Audit"
+  short_description: "Audit and test a REST, GraphQL, or webhook API for security flaws"
+policy:
+  allow_implicit_invocation: false

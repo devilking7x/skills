@@ -1,0 +1,5 @@
+interface:
+  display_name: "Secret Management"
+  short_description: "Manage the full lifecycle of secrets, from detection and storage to rotation and leaked-secret response"
+policy:
+  allow_implicit_invocation: false

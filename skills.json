@@ -1,0 +1,266 @@
+[
+  {
+    "name": "api-security-audit",
+    "description": "Audits and tests a REST, GraphQL, or webhook API for security flaws. Use when testing whether one user can read or change another user's data through an API, when reviewing authentication, tokens, or OAuth flows, or when probing for mass assignment, rate-limit, or business-logic flaws. Use when webhooks need signature and replay verification, or when writing a report with proof-of-concept requests.",
+    "path": "skills/in-progress/api-security-audit/SKILL.md",
+    "category": "security"
+  },
+  {
+    "name": "ask-matt",
+    "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+    "path": "skills/engineering/ask-matt/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "bug-bounty-hunting",
+    "description": "Hunts vulnerabilities on authorized bug bounty programs and writes reports that survive triage. Use when starting a hunt on a HackerOne, Bugcrowd, or private program and you need to check scope, fees, and program status before testing. Use when you have a candidate vulnerability and need to prove it is not a duplicate, build a runnable proof of concept on an authorized target, and score it honestly with CVSS. Use when drafting, submitting, or defending a bounty report, or when one comes back triaged, duplicate, informative, or N/A and you need to decide whether to withdraw or push back.",
+    "path": "skills/in-progress/bug-bounty-hunting/SKILL.md",
+    "category": "security"
+  },
+  {
+    "name": "chief-of-staff",
+    "description": "Pursue a long-running goal in a single session by co-ordinating subagents.",
+    "path": "skills/in-progress/chief-of-staff/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "claude-handoff",
+    "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+    "path": "skills/in-progress/claude-handoff/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "code-review",
+    "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+    "path": "skills/engineering/code-review/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "codebase-design",
+    "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+    "path": "skills/engineering/codebase-design/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "diagnosing-bugs",
+    "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+    "path": "skills/engineering/diagnosing-bugs/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "domain-modeling",
+    "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+    "path": "skills/engineering/domain-modeling/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "git-guardrails-claude-code",
+    "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+    "path": "skills/misc/git-guardrails-claude-code/SKILL.md",
+    "category": "misc"
+  },
+  {
+    "name": "grill-me",
+    "description": "A relentless interview to sharpen a plan or design.",
+    "path": "skills/productivity/grill-me/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "grill-with-docs",
+    "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+    "path": "skills/engineering/grill-with-docs/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "grilling",
+    "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+    "path": "skills/productivity/grilling/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "handoff",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "path": "skills/productivity/handoff/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "implement",
+    "description": "Implement a piece of work based on a spec or set of tickets.",
+    "path": "skills/engineering/implement/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "implement-spec",
+    "description": "Implement the result of /to-spec and /to-tickets in code.",
+    "path": "skills/engineering/implement-spec/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+    "path": "skills/engineering/improve-codebase-architecture/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "incident-response",
+    "description": "Runs a security or production incident end to end, from declaration to blameless postmortem. Use when a breach, outage, data leak, ransomware alert, or suspicious activity is suspected or confirmed. Use when you need to triage an alert, contain a compromised system, or decide whether to observe an attacker or cut them off. Use when coordinating a response across engineers, support, and leadership, or when writing a postmortem after an incident is over.",
+    "path": "skills/in-progress/incident-response/SKILL.md",
+    "category": "security"
+  },
+  {
+    "name": "loop-me",
+    "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+    "path": "skills/in-progress/loop-me/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "migrate-to-shoehorn",
+    "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+    "path": "skills/misc/migrate-to-shoehorn/SKILL.md",
+    "category": "misc"
+  },
+  {
+    "name": "pr",
+    "description": "Use when writing a PR body.",
+    "path": "skills/engineering/pr/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "prototype",
+    "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+    "path": "skills/engineering/prototype/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "research",
+    "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+    "path": "skills/engineering/research/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "retro",
+    "description": "Conduct a retrospective on a coding session.",
+    "path": "skills/engineering/retro/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "scaffold-exercises",
+    "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+    "path": "skills/misc/scaffold-exercises/SKILL.md",
+    "category": "misc"
+  },
+  {
+    "name": "secret-management",
+    "description": "Manages the full lifecycle of secrets, API keys, tokens, passwords, private keys, and cloud credentials, from detection and storage to rotation, runtime injection, and leaked-secret incident response. Use when adding or changing any credential, API key, or token in a codebase. Use when setting up a vault or secret manager, wiring secrets into CI/CD or Docker, or reviewing a repository for leaked values. Use when a secret may have been exposed in git history, logs, screenshots, or chat, or when rotating credentials after a staff departure or suspected breach.",
+    "path": "skills/in-progress/secret-management/SKILL.md",
+    "category": "security"
+  },
+  {
+    "name": "setup-matt-pocock-skills",
+    "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "path": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "setup-pre-commit",
+    "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+    "path": "skills/misc/setup-pre-commit/SKILL.md",
+    "category": "misc"
+  },
+  {
+    "name": "setup-ts-deep-modules",
+    "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+    "path": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "software-factory",
+    "description": "Shared language for designing a software factory: the tasks it runs and the services it plugs into.",
+    "path": "skills/in-progress/software-factory/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "supply-chain-security",
+    "description": "Secures the software supply chain from dependency to deployed artifact. Use when adding, updating, or auditing a dependency, when generating or reviewing an SBOM, when verifying build provenance or signatures, or when a dependency turns malicious or a critical CVE drops. Use when setting up Dependabot or Renovate, pinning CI actions, or reviewing a lockfile diff. Use when triaging package-manager audit findings or investigating a typosquatted or dependency-confusion package.",
+    "path": "skills/in-progress/supply-chain-security/SKILL.md",
+    "category": "security"
+  },
+  {
+    "name": "tdd",
+    "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+    "path": "skills/engineering/tdd/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "teach",
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "path": "skills/productivity/teach/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "to-questionnaire",
+    "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+    "path": "skills/productivity/to-questionnaire/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "to-spec",
+    "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+    "path": "skills/engineering/to-spec/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "to-tickets",
+    "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+    "path": "skills/engineering/to-tickets/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "triage",
+    "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+    "path": "skills/engineering/triage/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "wait-what",
+    "description": "Stop. That last message did not land: re-pitch it.",
+    "path": "skills/productivity/wait-what/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "wayfinder",
+    "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+    "path": "skills/engineering/wayfinder/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "wizard",
+    "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+    "path": "skills/engineering/wizard/SKILL.md",
+    "category": "engineering"
+  },
+  {
+    "name": "writing-beats",
+    "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+    "path": "skills/in-progress/writing-beats/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "writing-for-agents",
+    "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+    "path": "skills/productivity/writing-for-agents/SKILL.md",
+    "category": "productivity"
+  },
+  {
+    "name": "writing-fragments",
+    "description": "Writing, explore: mine raw fragments, no structure yet.",
+    "path": "skills/in-progress/writing-fragments/SKILL.md",
+    "category": "in-progress"
+  },
+  {
+    "name": "writing-shape",
+    "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+    "path": "skills/in-progress/writing-shape/SKILL.md",
+    "category": "in-progress"
+  }
+]

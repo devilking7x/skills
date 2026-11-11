@@ -1,0 +1,5 @@
+interface:
+  display_name: "Supply Chain Security"
+  short_description: "Secure the software supply chain from dependency to deployed artifact"
+policy:
+  allow_implicit_invocation: false

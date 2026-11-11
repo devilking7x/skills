@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bug Bounty Hunting"
+  short_description: "Hunt vulnerabilities on authorized bug bounty programs and write reports that survive triage"
+policy:
+  allow_implicit_invocation: false
