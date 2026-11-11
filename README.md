@@ -261,22 +261,22 @@ General workflow tools, not code-specific.
 
 ## What's new in this fork: Raza7x Advanced
 
-This fork keeps all 39 upstream skills unchanged and adds 5 new security skills, a skill validator, and a machine-readable index — 44 skills in total.
+This fork keeps all 39 upstream skills unchanged and adds 5 new security skills, a skill validator, and a machine-readable index, 44 skills in total.
 
 **New skills** (all under `skills/in-progress/`, user-invoked, in this repo's format):
 
-- **[bug-bounty-hunting](./skills/in-progress/bug-bounty-hunting/SKILL.md)** — Authorized hunting workflow: confirm the program is active and the exact asset is in scope, run the five-source duplicate check, static audit first, runnable PoC mandatory, honest severity, one finding per report.
-- **[secret-management](./skills/in-progress/secret-management/SKILL.md)** — Secrets lifecycle: detection and scanning, vaults and env handling, rotation without downtime, least privilege, and leaked-secret incident handling.
-- **[incident-response](./skills/in-progress/incident-response/SKILL.md)** — IR playbook: preparation, detection and triage, containment, eradication, recovery, blameless postmortem, and communications.
-- **[api-security-audit](./skills/in-progress/api-security-audit/SKILL.md)** — API testing: authn/authz, BOLA/IDOR, mass assignment, rate limiting and pagination abuse, business-logic flaws, and webhook verification.
-- **[supply-chain-security](./skills/in-progress/supply-chain-security/SKILL.md)** — SBOM, dependency pinning and lockfiles, provenance and attestation, typosquatting and dependency confusion, audit triage, and update policy.
+- **[bug-bounty-hunting](./skills/in-progress/bug-bounty-hunting/SKILL.md)**: Authorized hunting workflow: confirm the program is active and the exact asset is in scope, run the five-source duplicate check, static audit first, runnable PoC mandatory, honest severity, one finding per report.
+- **[secret-management](./skills/in-progress/secret-management/SKILL.md)**: Secrets lifecycle: detection and scanning, vaults and env handling, rotation without downtime, least privilege, and leaked-secret incident handling.
+- **[incident-response](./skills/in-progress/incident-response/SKILL.md)**: IR playbook: preparation, detection and triage, containment, eradication, recovery, blameless postmortem, and communications.
+- **[api-security-audit](./skills/in-progress/api-security-audit/SKILL.md)**: API testing: authn/authz, BOLA/IDOR, mass assignment, rate limiting and pagination abuse, business-logic flaws, and webhook verification.
+- **[supply-chain-security](./skills/in-progress/supply-chain-security/SKILL.md)**: SBOM, dependency pinning and lockfiles, provenance and attestation, typosquatting and dependency confusion, audit triage, and update policy.
 
 The new skills sit in the `in-progress` bucket, so they are beta, excluded from the plugin and from the reference lists above until they graduate, and they get no docs pages, matching this repo's own rules for that bucket.
 
 **Also new:**
 
-- `scripts/validate-skills.py` — Python (stdlib only) validator for every skill: frontmatter, name/description contract, required sections, placeholder and em-dash checks, user-invoked `agents/openai.yaml` consistency, and a `skills.json` cross-check. Run it with `python3 scripts/validate-skills.py`.
-- `skills.json` — Machine-readable index of all 44 skills (name, description, path, category).
+- `scripts/validate-skills.py`: Python (stdlib only) validator for every skill: frontmatter, name/description contract, required sections, placeholder and em-dash checks, user-invoked `agents/openai.yaml` consistency, and a `skills.json` cross-check. Run it with `python3 scripts/validate-skills.py`.
+- `skills.json`: Machine-readable index of all 44 skills (name, description, path, category).
 
 Install with:
 
